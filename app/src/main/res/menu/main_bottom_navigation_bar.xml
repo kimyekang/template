@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/page_home"
+        android:enabled="true"
+
+        android:title="홈"/>
+
+    <item
+        android:id="@+id/page_tv"
+        android:enabled="true"
+
+        android:title="TV"/>
+
+    <item
+        android:id="@+id/page_calendar"
+        android:enabled="true"
+
+        android:title="일정"/>
+
+    <!--아래처럼 나중에 바꿔야징 -->
+<!--    <item-->
+<!--        android:id="@+id/menu_main_btm_nav_home"-->
+<!--        android:icon="@drawable/ic_total_view_unselected"-->
+<!--        app:showAsAction="always"-->
+<!--        android:enabled="true"-->
+<!--        android:checkable="true"-->
+<!--        android:title="@string/main_btm_nav_home_title" />-->
+
+<!--    <item-->
+<!--        android:id="@+id/menu_main_btm_nav_my_page"-->
+<!--        android:icon="@drawable/ic_setting_view_unselected"-->
+<!--        app:showAsAction="always"-->
+<!--        android:enabled="true"-->
+<!--        android:title="@string/main_btm_nav_my_page_title" />-->
+</menu>
