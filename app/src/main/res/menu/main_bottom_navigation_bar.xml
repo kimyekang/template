@@ -5,19 +5,20 @@
     <item
         android:id="@+id/page_home"
         android:enabled="true"
-
+        app:showAsAction="ifRoom"
         android:title="홈"/>
 
     <item
-        android:id="@+id/page_tv"
+        android:id="@+id/page_myPage"
         android:enabled="true"
-
-        android:title="TV"/>
+        android:checkable="true"
+        app:showAsAction="ifRoom"
+        android:title="마이페이지"/>
 
     <item
-        android:id="@+id/page_calendar"
+        android:id="@+id/page_scheduler"
         android:enabled="true"
-
+        app:showAsAction="ifRoom"
         android:title="일정"/>
 
     <!--아래처럼 나중에 바꿔야징 -->
