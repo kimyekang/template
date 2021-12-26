@@ -6,17 +6,13 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.example.my__template.R
+import com.example.my__template.common.BaseFragment
+import com.example.my__template.databinding.FragmentScheduleBinding
 
-// TODO: Rename parameter arguments, choose names that match
+class ScheduleFragment :
+    BaseFragment<FragmentScheduleBinding>(FragmentScheduleBinding::bind, R.layout.fragment_schedule) {
 
-class ScheduleFragment : Fragment() {
-
-    override fun onCreateView(
-        inflater: LayoutInflater, container: ViewGroup?,
-        savedInstanceState: Bundle?
-    ): View? {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_schedule, container, false)
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
     }
-
 }

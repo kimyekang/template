@@ -4,8 +4,8 @@
 
     <item
         android:id="@+id/page_home"
-        android:enabled="true"
         app:showAsAction="ifRoom"
+        android:enabled="true"
         android:title="홈"/>
 
     <item
@@ -17,8 +17,8 @@
 
     <item
         android:id="@+id/page_scheduler"
-        android:enabled="true"
         app:showAsAction="ifRoom"
+        android:enabled="true"
         android:title="일정"/>
 
     <!--아래처럼 나중에 바꿔야징 -->

@@ -11,9 +11,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.My__template">
         <activity
-            android:name=".feature.main.home.HomeActivity"
-            android:exported="false" />
-        <activity
             android:name=".feature.splash.SplashActivity"
             android:exported="false" />
         <activity

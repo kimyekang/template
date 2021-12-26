@@ -8,7 +8,7 @@ android {
 
     defaultConfig {
         applicationId "com.example.my__template"
-        minSdk 24
+        minSdk 26
         targetSdk 31
         versionCode 1
         versionName "1.0"
@@ -30,19 +30,19 @@ android {
         jvmTarget = '1.8'
     }
     // 데이터 바인딩
-    viewBinding {
-        enabled = true
+
+    buildFeatures {
+        dataBinding = true
+        viewBinding = true
     }
-    dataBinding {
-        enabled = true
-    }
+
 }
 
 dependencies {
 
     implementation 'androidx.core:core-ktx:1.7.0'
     implementation 'androidx.appcompat:appcompat:1.4.0'
-    implementation 'com.google.android.material:material:1.4.0'
+    implementation 'com.google.android.material:material:1.2.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.2'
     implementation 'androidx.legacy:legacy-support-v4:1.0.0'
     testImplementation 'junit:junit:4.+'
