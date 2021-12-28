@@ -1,9 +1,18 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <data>
+        <variable
+            name="viewModel"
+            type="com.example.my__template.feature.main.home.HomeViewModel" />
+    </data>
+<FrameLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".feature.main.home.HomeFragment">
+    >
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
@@ -17,3 +26,4 @@
         android:id="@+id/btn"/>
 
 </FrameLayout>
+</layout>
